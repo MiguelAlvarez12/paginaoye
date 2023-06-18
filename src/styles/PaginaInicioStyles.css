@@ -1,5 +1,3 @@
-/* PaginaInicioStyles.css */
-
 .container {
   margin-top: 20px;
   padding: 20px;
@@ -54,10 +52,15 @@
 }
 
 .audio {
-  width: 60%;
+  width: 100%;
 }
 
 .subtitulo {
   font-weight: bold;
   color: rgb(0, 110, 255);
+}
+
+.paso2 {
+  -webkit-filter: invert(100%);
+  filter: invert(100%);
 }

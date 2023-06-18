@@ -1,10 +1,12 @@
 <template>
     <div class="navbar">
       <div class="navbar-left">
-        <span class="Logo cursor-pointer">
-        <img src="../assets/logo.png" alt="Logo" class="logo" />
-      </span>
-        <h1 class="title">OYE</h1>
+        <span class="Logo cursor-pointer" @click="redirectToHome">
+            <img src="../assets/logo.png"  alt="Logo" class="logo">
+        </span>
+        <h1 class="title">
+            <router-link to="/" class="title">OYE</router-link>
+        </h1>
       </div>
       <div class="navbar-center">
        <router-link to="/" class="linker">Inicio</router-link>
@@ -20,8 +22,11 @@
       </span>
 
     </div>
-        <button type="button" class="nav-btn btn btn-primary">Inicio de Sesión</button>
-        <button type="button" class="nav-btn btn btn-primary">Registro</button>
+        <!-- <button type="button" class="nav-btn btn btn-primary">Inicio de Sesión</button> -->
+        <router-link to="/InicioSesion" class="nav-btn btn btn-primary">Inicio de Sesión</router-link>
+        <!-- <button type="button" class="nav-btn btn btn-primary">Registro</button> -->
+        <router-link to="/Registro" class="nav-btn btn btn-primary">Registro</router-link>
+
       </div>
       
     </div>
@@ -56,6 +61,9 @@ export default{
             this.modalEstilos = {
                 display: 'block',
             }
+        },
+        redirectToHome(){
+            this.$router.push({ path: '/'})
         },
     },
     mounted(){

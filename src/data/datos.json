@@ -21,7 +21,7 @@
 		{
 			"nombre": "suave",
 			"ruta": "cuatro.mp3",
-			"reproducciones": 80,
+			"reproducciones": 15,
 			"icono": 2
 		},
 		{
@@ -33,7 +33,7 @@
 		{
 			"nombre": "alas",
 			"ruta": "seis.mp3",
-			"reproducciones": 70,
+			"reproducciones": 35,
 			"icono": 1
 		},
 		{
@@ -45,7 +45,7 @@
 		{
 			"nombre": "nuevamente",
 			"ruta": "ocho.mp3",
-			"reproducciones": 90,
+			"reproducciones": 50,
 			"icono": 1
 		},
 		{
@@ -53,6 +53,24 @@
 			"ruta": "nueve.mp3",
 			"reproducciones": 40,
 			"icono": 2
+		},
+		{
+			"nombre": "alma",
+			"ruta": "alma.mp3",
+			"reproducciones": 90,
+			"icono": 2			
+		},
+		{
+			"nombre": "nubes negras",
+			"ruta": "nubes-negras.mp3",
+			"reproducciones": 70,
+			"icono": 3
+		},
+		{
+			"nombre": "tengo ganas",
+			"ruta": "tengo-ganas.mp3",
+			"reproducciones": 80,
+			"icono": 1
 		}
 	]
 }

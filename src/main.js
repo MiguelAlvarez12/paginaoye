@@ -5,6 +5,8 @@ import {createRouter, createWebHashHistory} from 'vue-router';
 
 import PaginaInicio from './components/PaginaInicio.vue';
 import PaginaCanciones from './components/PaginaCanciones.vue';
+import InicioDeSesionComponente from './components/InicioDeSesionComponent.vue';
+import RegistroComponent from './components/RegistroComponent.vue';
 
 const routes = [
     {
@@ -16,6 +18,16 @@ const routes = [
         path: '/PaginaCanciones',
         name: 'PaginaCanciones',
         component: PaginaCanciones,
+    },
+    {
+        path: '/InicioSesion',
+        name: 'InicioDeSesionComponent',
+        component: InicioDeSesionComponente,
+    },
+    {
+        path: '/Registro',
+        name: 'RegistroComponent',
+        component: RegistroComponent,
     }
 ]
 
