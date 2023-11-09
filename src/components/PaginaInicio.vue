@@ -3,7 +3,7 @@
     <div class="container d-flex align-items-center justify-content-center">
       <div class="row">
         <div class="col-md-6">
-          <h1 class="title2">Canciones gratis para la comunidad!</h1>
+          <h1 class="title2">Musica gratis para la comunidad!</h1>
           <p class="text1">Con este sitio podrás escuchar audios de manera libre...</p>
           <a class="a1 btn btn-primary" href="/#/PaginaCanciones" role="button">Ver Canciones</a>
         </div>
